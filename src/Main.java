@@ -8,7 +8,7 @@ public class Main {
         System.out.println(capitans);
         capitans.setPublishingYear(1964);
     }
-
+//1
     public static void print(Book book) {
         System.out.println("Название книги:" +book.getTitle()+ ", год издания: " +
                 book.getPublishingYear() + " ,автор: " +book.getAuthor().getName()+ " " + book.getAuthor().getSurname()) ;
